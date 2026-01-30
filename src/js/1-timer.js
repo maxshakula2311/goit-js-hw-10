@@ -18,7 +18,7 @@ startBtn.addEventListener('click', () => {
     const deltaTime = selectedDate - currentDate;
     if (deltaTime <= 0) {
       clearInterval(timerHandler);
-      startBtn.disabled = false;
+      // startBtn.disabled = false;
       input.disabled = false;
       iziToast.info({
         title: 'Time is up!',
